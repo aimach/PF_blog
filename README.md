@@ -1,6 +1,7 @@
-Personal project : blog with articles, always under construction for improvements.
+Personal project : blog with articles.
+Always under construction for improvements ! Next features : pagination for articles and some style maybe ?
 
-Using ReactJS, Next.js and Tailwind CSS.
+Using ReactJS, Next.js, Tailwind CSS and Vercel (deployement).
 
 Using JSON Placeholder, Lorem Picsum.
 
