@@ -4,4 +4,4 @@ Using ReactJS, Next.js and Tailwind CSS.
 
 Using JSON Placeholder, Lorem Picsum.
 
-Thanks [The Net Ninja] (https://www.youtube.com/playlist?list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw) for the tutorials. 
+Thanks [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw) for the tutorials. 
