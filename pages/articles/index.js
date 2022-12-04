@@ -3,14 +3,14 @@ import Link from "next/link";
 const Test = ({ posts }) => {
   return (
     <>
-      <div className='flex flex-row'>
+      <div className='flex flex-row flex-wrap justify-center'>
         {posts.map((post, key) =>
-          <div key={key} className='flex flex-col rounded-md w-1/5 bg-gradient-to-r from-purple-500 to-pink-500 text-center	m-10'>
-            <img src='https://i.picsum.photos/id/1047/536/354.jpg?hmac=Hqs-Rz08WiLc2elw4gHvY1P-wxDJfmiZ-CSay2BH-1U' alt='random img' className='rounded' />
+          <div key={key} className='flex flex-col rounded-md w-1/5 text-center m-10 border hover:text-cyan-600 hover:border-cyan-600'>
             <Link href={`/articles/${post.id}`}>
+              <img src='https://picsum.photos/300/200' alt='random img' className='rounded' />
               <div>
-                <h1 className="">{post.title}</h1>
-              </div>;
+                <h1 className="m-3">{post.title}</h1>
+              </div>
             </Link>
           </div>
         )}
@@ -24,9 +24,8 @@ const Test = ({ posts }) => {
 export default Test;
 
 export async function getStaticProps() {
-  const posts = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=4')
+  const posts = await fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
-  // console.log(posts)
   return {
     props: {
       posts
