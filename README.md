@@ -1,5 +1,5 @@
 Personal project : blog with articles.
-Always under construction for improvements ! Next features : pagination for articles and some style maybe ?
+Always under construction for improvements ! Next features : pagination for articles and responsive style.
 
 Using ReactJS, Next.js, Tailwind CSS and Vercel (deployement).
 
