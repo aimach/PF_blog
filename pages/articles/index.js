@@ -5,7 +5,7 @@ const Test = ({ posts }) => {
     <>
       <div className='flex flex-row flex-wrap justify-center'>
         {posts.map((post, key) =>
-          <div key={key} className='flex flex-col rounded-md w-1/5 text-center m-10 border hover:text-cyan-600 hover:border-cyan-600'>
+          <div key={key} className='flex flex-col rounded-md w-1/5 text-center m-10 border hover:text-primary-color hover:border-primary-color'>
             <Link href={`/articles/${post.id}`}>
               <img src='https://picsum.photos/300/200' alt='random img' className='rounded' />
               <div>
