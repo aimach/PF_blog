@@ -8,7 +8,7 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-        <title>Mon sujet de porte-folio 1</title>
+        <title>PF1 - Blog | Home</title>
       </Head>
       <div className='flex flex-col items-center my-8'>
         <img src='https://picsum.photos/600/200' alt='random img' />

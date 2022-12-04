@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
       <div className="basis-20">
         <NavBar />
       </div>
-      <div className="basis-full">
+      <div className="basis-auto">
         {children}
       </div>
       <div className="basis-20 flex justify-center items-center border-t">

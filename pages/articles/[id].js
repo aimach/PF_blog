@@ -1,7 +1,11 @@
 import Link from "next/link"
+import Head from "next/head"
 
 export default function Post({ post }) {
   return <>
+    <Head>
+      <title>PF1 - Blog | Article {post.id}</title>
+    </Head>
     <main className="flex flex-row  m-8">
       <img src='https://picsum.photos/200/300' alt='random img' />
       <div className="mx-8 flex flex-col">

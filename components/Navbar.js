@@ -1,13 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 import logo from "../public/logo.png"
 
 const NavBar = () => {
-  console.log(logo)
   return (
     <nav className="">
       <div className="logo">
         <Link href={'/'}>
-          <img src={logo.src} alt='logo' className="w-40" />
+          <Image src={logo.src} alt='logo' width={150} height={150} />
         </Link>
       </div>
       <ul className="flex flex-row justify-end border-b pb-5">
